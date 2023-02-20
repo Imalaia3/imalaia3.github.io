@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I live in Greece and I like to program
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
+I currently know Python Java and C++ but I am trying to expand my knowledge!
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Use the Twitter or Email provided at the bottom of my website
