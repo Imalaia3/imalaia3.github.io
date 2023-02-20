@@ -1,0 +1,26 @@
+---
+layout: post
+title: How to detect Grabify links
+---
+Have you ever clicked on a link that gets your IP?
+
+If so, you probably want to prevent that from happening again. but you don't want to use an extension. So, let me show you how to detect grabify links in python!
+
+
+First, we need to import the "requests" module in order to get the contents of a website.
+
+Then, we should get the users input and store it in a variable `link = input("Enter your URL > ")`
+
+Now let's get to the good part. Since you need to click accept before grabify pulls your IP, we can find if a website is made by Grabify by searching
+for "grabify" in its contents. Having to press "Accept" also makes our detector undetectable since it does not click any buttons.
+
+Get the websites content `cont = requests.get(link).text`
+
+Next, use the `string.find()` method in order to search for grabify: `occur = cont.find("grabify")`. This gives us the index of the occurance.
+Note that this will trigger if grabify is mentioned in a page.
+
+Here is the code:
+
+`
+dem
+`
